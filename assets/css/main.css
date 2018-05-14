@@ -173,6 +173,15 @@ footer {
 	width: 710px;
 }
 
+/* clientes */
+.inner-col {
+	min-height: 40vh;
+}
+.row-up {
+	min-height: 50vh;
+	background-color: #fff;
+}
+
 /* b r a ç o s */
 
 /* Contatos */
