@@ -91,7 +91,6 @@ footer {
 
 #inner {
 	padding-top: 10%;  /* rescpecto a que es este porcentaje? toda la pagina */
-    padding-left: 35%;
 }
 
 #inner-title {
@@ -126,14 +125,12 @@ footer {
 /* nos */
 #about-us-container {
 	width: 1000px;
-    margin-left: 280px;
     padding-top: 110px;
 }
 
 #about-us-title {
     margin-bottom: 25px;
 	text-transform: uppercase;
-	padding-left: 560px;
 }
 
 #about-us-description {
@@ -146,11 +143,9 @@ footer {
 #videos {    
 	padding-top: 55px;
     height: 120vh !important;
-    padding-left: 350px;
 }
 
 .video-container{
-	padding-left: 400px;
 }
 
 #video-description {
@@ -159,7 +154,6 @@ footer {
 }
 
 #video-title {
-	padding-left: 155px;
 	text-transform: uppercase;
     margin-bottom: 30px;
  	font-family: 'Source Sans Pro', sans-serif;
@@ -167,21 +161,45 @@ footer {
 }
 
 #videos-video {
-	padding-left: 75px;
 	margin-bottom: 10px;
     width: 600px;
     margin-left: -25px;	
 }
 
 #videos-subcontainer{
-	padding-top: 20px;
 }
 
 #video-container {
-    padding-left: 60px;
 	width: 710px;
 }
 
 /* b r a ç o s */
 
 /* Contatos */
+
+
+
+
+/* Medias queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+	.section {
+		height: 80vh;
+	}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
