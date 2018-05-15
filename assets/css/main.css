@@ -253,7 +253,7 @@ footer {
 #music{
 	background-image: url("images/music.jpg");
 }
->>>>>>> col-size-added
+
 /* b r a ç o s */
 
 /* Contatos */
@@ -264,7 +264,6 @@ footer {
 }
 
 /*==========  Mobile First Method  ==========*/
-
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
