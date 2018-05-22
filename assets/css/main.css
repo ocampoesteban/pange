@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family:Merriweather,'Helvetica Neue',Arial,sans-serif ;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -144,8 +145,6 @@ footer {
 
 /* nos */
 #about-us-container {
-	width: 1000px;
-    text-align: right;
 }
 
 #about-us-title {
@@ -153,9 +152,8 @@ footer {
 	text-transform: uppercase;
 }
 
-#about-us-description {
+.about-us-description {
 	color: #000000c2;
-	text-align : left;
 }
 
 /* Video */
@@ -167,14 +165,15 @@ footer {
 .video-container{
 }
 
-#video-description {
+.video-description {
 	color:#000000c2;
 	margin:auto;
 }
 
-#video-title {
+.video-title {
 	text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-top: 25px;
+	margin-bottom: 5px;
  	font-family: 'Source Sans Pro', sans-serif;
     font-weight: 1000;
 }
