@@ -426,8 +426,6 @@ iPad 3
         }
 
         	.MultiCarousel .MultiCarousel-inner .item > div { 
-        		/*width: 10px;
-        		height: 100px;*/
         		text-align: center; 
         		margin: 10px;
         		background: #f1f1f1;
@@ -455,6 +453,6 @@ iPad 3
 	}
 
 	.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
-					pointer-events: none;
-					background:#ccc;
-				}
+		pointer-events: none;
+		background:#ccc;
+}

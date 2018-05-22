@@ -1,14 +1,16 @@
-//Scroll down
-$('a').click(function() {
-	var href = $(this).attr('href');
-    $('html, body').animate({
-        scrollTop: $(href).offset().top
-    }, 2000);
-});
 
-
-// ----------- carousel ------------- // 
 $(document).ready(function () {
+
+    //Scroll down
+    $('a').click(function() {
+        var href = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(href).offset().top
+        }, 2000);
+    });
+
+
+    // ----------- carousel ------------- // 
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
     var itemWidth = "";
@@ -20,12 +22,7 @@ $(document).ready(function () {
         else
             click(1, this)
     });
-
     ResCarouselSize();
-
-
-
-
     $(window).resize(function () {
         ResCarouselSize();
     });
@@ -46,8 +43,6 @@ $(document).ready(function () {
             btnParentSb = $(this).parent().attr(dataItems);
             itemsSplit = btnParentSb.split(',');
             $(this).parent().attr("id", "MultiCarousel" + id);
-    
-
 
             if (bodyWidth >= 1200) {
                 incno = itemsSplit[3];
@@ -75,7 +70,6 @@ $(document).ready(function () {
 
         });
     }
-
 
     //this function used to move the items
     function ResCarousel(e, el, s) {
