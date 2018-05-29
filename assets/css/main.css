@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family:Merriweather,'Helvetica Neue',Arial,sans-serif ;
+	font-family: Avenir Next,sans-serif ;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -116,11 +116,12 @@ footer {
 	background-color: #a5484800;
     color: #fbfbfb;
     text-align: center;
+    padding-top: 20vh;
     font-size: 100px;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Avenir Next', sans-serif;
 }
 
 .section {
@@ -143,17 +144,19 @@ footer {
 }
 
 
-/* nos */
+/* quem somos */
 #about-us-container {
 }
 
 #about-us-title {
-    margin-bottom: 25px;
-	text-transform: uppercase;
+	padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 3em;
 }
 
 .about-us-description {
-	color: #000000c2;
+	color: #101B19;
+	padding-bottom: 90px;
 }
 
 /* Video */
@@ -174,7 +177,7 @@ footer {
 	text-transform: uppercase;
     margin-top: 25px;
 	margin-bottom: 5px;
- 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
 }
 
@@ -191,13 +194,72 @@ footer {
 #video-container {
 }
 
-/* clientes */
-.inner-col {
-	min-height: 40vh;
+/*carousel*/
+
+.MultiCarousel { 
+	float: left; 
+	overflow: hidden; 
+	padding: 15px; 
+	width: 100%; 
+	position: relative;
 }
-.row-up {
-	min-height: 50vh;
-	background-color: #fff;
+
+    .MultiCarousel .MultiCarousel-inner { 
+    	transition: 1s ease all;
+    	float: left; 
+    }
+
+        .MultiCarousel .MultiCarousel-inner .item { 
+        	float: left;
+        }
+
+        	.MultiCarousel .MultiCarousel-inner .item > div { 
+        		text-align: center; 
+        		margin: 10px;
+        		background: #f1f1f1;
+        		color:#666;
+        	}
+
+        	.MultiCarousel .MultiCarousel-inner .item > div {
+				padding-bottom: 35px;
+        	}
+
+        	.MultiCarousel .MultiCarousel-inner .item > div > h1 {
+				padding-top: 35px;
+				padding-bottom: 15px;
+				color: #101B19;
+				font-weight: 500;
+        	}
+
+        	.MultiCarousel .MultiCarousel-inner .item > div > p {
+				padding-right: 25px;
+				padding-left: 25px;
+			}
+
+        	.MultiCarousel .MultiCarousel-inner .item > div > a > img {
+				max-width: 100%;        	
+        	}
+
+
+        	
+
+   .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
+   		position: absolute;
+   		border-radius: 50%;
+   		top: calc(50% - 20px); 
+   	}
+
+	.MultiCarousel .leftLst { 
+		left: 0; 
+	}
+
+	.MultiCarousel .rightLst { 
+		right: 0;
+	}
+
+	.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
+		pointer-events: none;
+		background:#ccc;
 }
 
 /* braços */
@@ -230,7 +292,7 @@ footer {
 #bracos-title{
 	text-align: center;
     margin-bottom: 30px;
- 	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
 }
 
@@ -266,8 +328,6 @@ footer {
 #music {
 	background-image: url("images/cube.svg");
 }
-
-/* b r a ç o s */
 
 /* Contatos */
 .box {    
@@ -405,53 +465,3 @@ iPad 3
 /* Styles */
 }
 
-/*carousel*/
-
-.MultiCarousel { 
-	float: left; 
-	overflow: hidden; 
-	padding: 15px; 
-	width: 100%; 
-	position: relative;
-}
-
-    .MultiCarousel .MultiCarousel-inner { 
-    	transition: 1s ease all;
-    	float: left; 
-    }
-
-        .MultiCarousel .MultiCarousel-inner .item { 
-        	float: left;
-        }
-
-        	.MultiCarousel .MultiCarousel-inner .item > div { 
-        		text-align: center; 
-        		margin: 10px;
-        		background: #f1f1f1;
-        		color:#666;
-        	}
-
-        	.MultiCarousel .MultiCarousel-inner .item > div > a > img {
-				max-width: 100%;        	
-        	}
-
-        	
-
-   .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
-   		position: absolute;
-   		border-radius: 50%;
-   		top: calc(50% - 20px); 
-   	}
-
-	.MultiCarousel .leftLst { 
-		left: 0; 
-	}
-
-	.MultiCarousel .rightLst { 
-		right: 0;
-	}
-
-	.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { 
-		pointer-events: none;
-		background:#ccc;
-}
