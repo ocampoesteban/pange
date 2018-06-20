@@ -56,7 +56,7 @@ nav {
 	width: 100%;
 	background-color: transparent;
 	padding-left: 115px !important;
-    padding-top: 24px !important;
+    padding-top: 25px !important;
 }
 
 nav .navbar-collapse {
@@ -76,6 +76,15 @@ nav .blog-button {
 	margin-left: 45%;
 }
 
+nav .navbar-toggler {
+	width: 15vw;
+	height: 15vw;
+}
+
+nav .navbar-toggler img {
+	width: 15vw;
+	height: 15vw;
+}
 /* Header */
 
 header {
@@ -91,7 +100,7 @@ footer {
 }
 
 .container {
-	padding-top: 35px;
+	padding-top: 65px;
 	padding-bottom: 35px;
 }
 
@@ -139,8 +148,6 @@ footer {
 
 .section.grey {
 	background-color: #f2f2f2;
-	height: 100%;
-
 }
 
 
@@ -264,36 +271,22 @@ footer {
 
 /* braços */
 
-.card-section-title {
-    margin-bottom:30px; 
-}
-
-#set-cards {
-   width:100%;
-    margin: 0 auto;
-    margin-top:75px;
-    height:600px;
-}
-
-.card-container {
-    float:left;
-    width:27%;
+#arms-title {
+	padding-bottom: 30px;	
 }
 
 .box {
-	height: 450px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
     background-color: white;
-    margin-left: 20px;
 	-webkit-box-shadow:0px 22px 68px -9px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow:0px 22px 68px -9px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 22px 68px -9px rgba(0, 0, 0, 0.15)
 }
 
-#bracos-title{
-	text-align: center;
-    margin-bottom: 30px;
-	font-family: 'Avenir Next', sans-serif;
-    font-weight: 1000;
+.img-fluid {
+	min-width: 100%;
+	height: auto;
 }
 
 .card-title {
@@ -305,36 +298,8 @@ footer {
     margin: auto;
 }
 
-.card-photo {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#trip,#culture,#music{
-	background-position: center;
-    background-size: contain;
-    height: 55%;
-    background-size: cover;
-}
-
-#trip {
-	background-image: url("images/cube.svg");	
-}
-
-#culture {
-	background-image: url("images/cube.svg");
-}
-
-#music {
-	background-image: url("images/cube.svg");
-}
-
 /* Contatos */
-.box {    
-	height: 530px;
-    width: 345px;
-    margin-bottom: 50px;
-}
+
 
 /*==========  Mobile First Method  ==========*/
 /* Smartphones (portrait and landscape) ----------- */
@@ -403,39 +368,39 @@ iPad 3
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	.box {    
+	/*.box {    
 	    height: 545px;
 	    width: 490px;
 	    margin-bottom: 50px;
-	}
+	}*/
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	.box {    
+	/*.box {    
 	    height: 545px;
 	    width: 100%;
 	    margin-bottom: 50px;
-	}
+	}*/
 }
 
 /* iPhone 6+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	.box {    
+	/*.box {    
 		height: 530px;
 	    width: 100%;
 	    margin-bottom: 50px;
-	}
+	}*/
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	.box {    
+	/*.box {    
 		height: 530px;
 	    width: 100%;
 	    margin-bottom: 50px;
-	}
+	}*/
 }
 
 /* Samsung Galaxy S3 ----------- */
