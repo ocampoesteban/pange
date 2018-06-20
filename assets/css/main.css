@@ -80,9 +80,14 @@ nav .blog-button {
 
 header {
 	background: url(https://cdn.shopify.com/s/files/1/0880/2184/files/How-to-take-great-iPhone-photos-on-your-next-hike-7.jpg?v=1482511017);
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
+	/* Full height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
