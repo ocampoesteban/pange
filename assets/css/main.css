@@ -120,6 +120,7 @@ footer {
     width: 100%;
     padding-right: 4%;
     padding-bottom: 5%;
+    cursor: pointer;
 }
 
 #inner {
