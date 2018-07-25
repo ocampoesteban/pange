@@ -65,7 +65,7 @@ nav .navbar-collapse {
 }
 
 nav .nav-link {
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 600;
 	color: #fff;
 	text-transform: uppercase;
@@ -132,7 +132,7 @@ footer {
     color: #fbfbfb;
     text-align: center;
     padding-top: 20vh;
-    font-size: 100px;
+    font-size: 105px;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
