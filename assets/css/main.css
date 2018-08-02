@@ -109,6 +109,10 @@ footer {
 	padding-bottom: 35px;
 }
 
+.container-fluid .row {
+	
+}
+
 #wrapper {
 	height: 100%;	
 }
@@ -162,14 +166,14 @@ footer {
 }
 
 #about-us-title {
-	padding-top: 1em;
+	padding-top: 0.5em;
     padding-bottom: 0.5em;
     font-size: 3em;
 }
 
 .about-us-description {
 	color: #101B19;
-	padding-bottom: 90px;
+	padding-bottom: 80px;
 }
 
 /* Video */
@@ -184,6 +188,7 @@ footer {
 .video-description {
 	color:#000000c2;
 	margin:auto;
+	padding-bottom: 80px;
 }
 
 .video-title {
@@ -195,6 +200,7 @@ footer {
 }
 
 #videos-video {
+	margin-top: 35px !important;
 	margin-bottom: 10px;
     width: 600px;
     margin: auto;
@@ -308,6 +314,9 @@ footer {
 
 
 /*==========  Mobile First Method  ==========*/
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -374,39 +383,76 @@ iPad 3
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	/*.box {    
-	    height: 545px;
-	    width: 490px;
-	    margin-bottom: 50px;
-	}*/
+	
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	/*.box {    
-	    height: 545px;
-	    width: 100%;
-	    margin-bottom: 50px;
-	}*/
+	h1 {
+		font-size: 2.4rem !important;
+	}
+
+	h4 {
+	    font-size: 1.2rem !important;
+	    line-height: 1.5 !important;
+	}
+
+	/* quem somos */
+	.title-section {
+	    padding-top: 0.3rem;
+    	padding-bottom: 0.1rem;
+	}
+
+	.about-us-description {
+		padding-bottom: 20px;
+	}
+
+	/* videos */
+	#videos-video {
+    	padding-bottom: 0.1rem;
+    	width: 100%;
+	}
+
+	.video-description {
+    	padding-bottom: 20px;
+	}
+
+	#inner-title {
+	    font-size: 60px;
+	}
+
+	#inner {
+    	padding-left: 7px;
+	}
+
+	/* cliente */
+	.item {
+		width: 270px !important;
+	}
+
+
+	/* braços  */
+	.box {
+	    padding-bottom: 0px;
+	}
+
+	.card-description {
+    	font-size: : 10px !important;
+	}
+
+
+
 }
 
 /* iPhone 6+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	/*.box {    
-		height: 530px;
-	    width: 100%;
-	    margin-bottom: 50px;
-	}*/
+	
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
 /* Styles */
-	/*.box {    
-		height: 530px;
-	    width: 100%;
-	    margin-bottom: 50px;
-	}*/
+	
 }
 
 /* Samsung Galaxy S3 ----------- */
