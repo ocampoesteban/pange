@@ -310,32 +310,81 @@ footer {
 }
 
 /* Contatos */
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+#contact-section {
 }
 
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+#form-footer {
+	padding: 0vh 10vh 10vh 10vh;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
+#about-us-title {
+	background-color: #a5484800;
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-family: 'Avenir Next LT Pro';
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#about-us-title-inner {
+	padding: 0 50px 0 50px;
+}
+
+#contact-us-title {
+	background-color: #a5484800;
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-family: 'Avenir Next LT Pro';
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#instagram-title {
+	background-color: #a5484800;
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-family: 'Avenir Next LT Pro';
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#copyright-container {
+	border-top: 1px solid #363636;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(54, 54, 54);
+}
+
+#copyright-text {
+	padding: 10px 10px 10px 0;
+}
+
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
 }
 /*==========  Mobile First Method  ==========*/
 
@@ -462,6 +511,11 @@ iPad 3
 
 	.card-description {
     	font-size: : 10px !important;
+	}
+
+	/*contact*/
+	#form-footer {
+	padding: 10vh 0 0 0;
 	}
 
 
