@@ -146,7 +146,7 @@ footer {
     color: #fbfbfb;
     text-align: center;
     padding-top: 20vh;
-    font-size: 105px;
+    font-size: 12vw;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
@@ -173,12 +173,6 @@ footer {
 
 /* quem somos */
 #about-us-container {
-}
-
-#about-us-title {
-	padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 3em;
 }
 
 .about-us-description {
@@ -212,7 +206,7 @@ footer {
 #videos-video {
 	margin-top: 35px !important;
 	margin-bottom: 10px;
-    width: 600px;
+    width: 70vw;
     margin: auto;
 }
 
@@ -332,7 +326,7 @@ footer {
 	background-color: #a5484800;
     color: #fbfbfb;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
@@ -349,7 +343,7 @@ footer {
 	background-color: #a5484800;
     color: #fbfbfb;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
@@ -362,7 +356,7 @@ footer {
 	background-color: #a5484800;
     color: #fbfbfb;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
