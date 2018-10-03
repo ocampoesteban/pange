@@ -119,10 +119,6 @@ footer {
 	padding-bottom: 35px;
 }
 
-.container-fluid .row {
-	
-}
-
 #wrapper {
 	height: 100%;
 }
@@ -498,10 +494,6 @@ iPad 3
 	/* braços  */
 	.box {
 	    padding-bottom: 0px;
-	}
-
-	.card-description {
-    	font-size: : 10px !important;
 	}
 
 	/*contact*/
