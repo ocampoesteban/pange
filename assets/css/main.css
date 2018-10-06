@@ -67,10 +67,11 @@ nav .navbar-collapse {
 }
 
 nav .nav-item {
+	padding: 0 1vh 0 1vh;
 	z-index: 3;
 }
 nav .nav-link {
-	font-size: 25px;
+	font-size: 2.5vh;
 	font-weight: 600;
 	color: #fff;
 	text-transform: uppercase;
@@ -78,7 +79,6 @@ nav .nav-link {
 }
 
 nav .blog-button {
-	background: green;
 	/*margin-left: 45%;*/
 }
 
@@ -92,10 +92,6 @@ nav .navbar-toggler-icon {
 	z-index: 3;
 }
 
-nav .navbar-toggler-icon img {
-	width: 15vw;
-	height: 15vw;
-}
 /* Header */
 
 header {
@@ -142,11 +138,18 @@ footer {
     color: #fbfbfb;
     text-align: center;
     padding-top: 20vh;
-    font-size: 12vw;
-    font-weight: 1000;
+    font-size: 8vw;
+    font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 11px;
-    font-family: 'Avenir Next LT Pro';
+    letter-spacing: 5vw;
+    margin-left: 1.9vw;
+}
+
+#subtitle {
+	text-align: center;
+	color: #fbfbfb;
+	font-size: 2vw;
+	letter-spacing: 1.5vw;
 }
 
 .section {
@@ -168,13 +171,18 @@ footer {
 
 
 /* quem somos */
-#about-us-container {
+/*#about-us-section {
+	min-height: 50vh;
+}*/
+#about-us-section-title {
+	padding-top: 15vh;
 }
 
-.about-us-description {
-	color: #101B19;
-	padding-bottom: 80px;
+#about-us-section-text {
+	padding-bottom: 15vh;
+	text-align: justify;
 }
+
 
 /* Video */
 
@@ -328,7 +336,7 @@ footer {
     font-weight: 1000;
     text-transform: uppercase;
     letter-spacing: 11px;
-    font-family: 'Avenir Next LT Pro';
+    font-family: 'Avenir Next';
 }
 
 .contact {
@@ -458,14 +466,14 @@ iPad 3
 	}
 
 	/* quem somos */
-	.title-section {
+	/*.title-section {
 	    padding-top: 0.3rem;
     	padding-bottom: 0.1rem;
-	}
+	}*/
 
-	.about-us-description {
+	/*.about-us-description {
 		padding-bottom: 20px;
-	}
+	}*/
 
 	/* videos */
 	#videos-video {
@@ -476,10 +484,10 @@ iPad 3
 	.video-description {
     	padding-bottom: 20px;
 	}
-
-	#inner-title {
+	/*desactivate becouse was buggin*/
+/*	#inner-title {
 	    font-size: 60px;
-	}
+	}*/
 
 	#inner {
     	padding-left: 7px;
