@@ -166,6 +166,7 @@ footer {
 
 .section.white {
 	background-color: white;
+	min-height: 450px;
 }
 
 .section.grey {
@@ -192,9 +193,9 @@ footer {
 }
 
 .video-title {
-	text-transform: uppercase;
-    margin-top: 25px;
-	margin-bottom: 5px;
+	text-transform: uppercase; /* remove ,add it with boostrap */
+    margin-top: 25px; /* remove ,add it with boostrap */
+	margin-bottom: 5px; /* remove ,add it with boostrap */
  	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
 }
