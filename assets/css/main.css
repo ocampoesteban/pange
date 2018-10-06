@@ -29,20 +29,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -69,6 +74,7 @@ nav .navbar-collapse {
 nav .nav-item {
 	z-index: 3;
 }
+
 nav .nav-link {
 	font-size: 25px;
 	font-weight: 600;
@@ -168,8 +174,6 @@ footer {
 
 
 /* quem somos */
-#about-us-container {
-}
 
 .about-us-description {
 	color: #101B19;
@@ -182,13 +186,9 @@ footer {
     height: 100%;
 }
 
-.video-container{
-}
-
 .video-description {
 	color:#000000c2;
 	margin:auto;
-	padding-bottom: 80px;
 }
 
 .video-title {
@@ -199,18 +199,12 @@ footer {
     font-weight: 1000;
 }
 
-#videos-video {
-	margin-top: 35px !important;
-	margin-bottom: 10px;
-    width: 70vw;
-    margin: auto;
-}
-
 #videos-subcontainer{
     margin-top: 25px;
 }
 
-#video-container {
+.offset_lg_2 {
+    margin-left: 20.666667% !important;
 }
 
 /*carousel*/
@@ -467,12 +461,12 @@ iPad 3
 		padding-bottom: 20px;
 	}
 
-	/* videos */
-	#videos-video {
-    	padding-bottom: 0.1rem;
-    	width: 100%;
+	/* video */
+	.offset_lg_2 {
+	    margin-left: 0 !important;
 	}
 
+	/* delete paddings */
 	.video-description {
     	padding-bottom: 20px;
 	}
