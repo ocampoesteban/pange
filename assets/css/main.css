@@ -29,20 +29,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -70,6 +75,7 @@ nav .nav-item {
 	padding: 0 1vh 0 1vh;
 	z-index: 3;
 }
+
 nav .nav-link {
 	font-size: 2.5vh;
 	font-weight: 600;
@@ -163,6 +169,7 @@ footer {
 
 .section.white {
 	background-color: white;
+	min-height: 450px;
 }
 
 .section.grey {
@@ -172,9 +179,6 @@ footer {
 
 /* quem somos */
 
-#about-us-section-title {
-	padding-top: 15vh;
-}
 
 #about-us-section-text {
 	padding-bottom: 15vh;
@@ -188,35 +192,25 @@ footer {
     height: 100%;
 }
 
-.video-container{
-}
-
 .video-description {
 	color:#000000c2;
 	margin:auto;
-	padding-bottom: 80px;
 }
 
 .video-title {
-	text-transform: uppercase;
-    margin-top: 25px;
-	margin-bottom: 5px;
+	text-transform: uppercase; /* remove ,add it with boostrap */
+    margin-top: 25px; /* remove ,add it with boostrap */
+	margin-bottom: 5px; /* remove ,add it with boostrap */
  	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
-}
-
-#videos-video {
-	margin-top: 35px !important;
-	margin-bottom: 10px;
-    width: 70vw;
-    margin: auto;
 }
 
 #videos-subcontainer{
     margin-top: 25px;
 }
 
-#video-container {
+.offset_lg_2 {
+    margin-left: 20.666667% !important;
 }
 
 /*carousel*/
@@ -473,12 +467,12 @@ iPad 3
 		padding-bottom: 20px;
 	}*/
 
-	/* videos */
-	#videos-video {
-    	padding-bottom: 0.1rem;
-    	width: 100%;
+	/* video */
+	.offset_lg_2 {
+	    margin-left: 0 !important;
 	}
 
+	/* delete paddings */
 	.video-description {
     	padding-bottom: 20px;
 	}
