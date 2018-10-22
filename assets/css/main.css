@@ -58,12 +58,20 @@ table {
 /* Navbar */
 /*Fixed non working "a" tags by using z-index = 3 at 
 the necessary nav elements*/
+.collapse.show {
+    background-color: white;
+    opacity: 0.8;
+}
+
 nav {
 	position: absolute !important;	
 	width: 100%;
 	background-color: #5f5959,
 	/*padding-left: 115px !important;*/
     padding-top: 25px !important;
+}
+.navbar {
+    z-index: 1;
 }
 
 nav .navbar-collapse {
@@ -73,7 +81,6 @@ nav .navbar-collapse {
 
 nav .nav-item {
 	padding: 0 1vh 0 1vh;
-	z-index: 3;
 }
 
 nav .nav-link {
@@ -81,11 +88,13 @@ nav .nav-link {
 	font-weight: 600;
 	color: #fff;
 	text-transform: uppercase;
-	z-index: 3;
 }
 
 nav .blog-button {
-	/*margin-left: 45%;*/
+	margin-left: 45%;
+	background-color: #28a745;
+    border-color: #28a745;
+    border-radius: 7%;
 }
 
 nav .navbar-toggler {
@@ -462,6 +471,37 @@ iPad 3
 	h4 {
 	    font-size: 1.2rem !important;
 	    line-height: 1.5 !important;
+	}
+
+	nav .nav-link {
+		font-size: 3.5vh;
+    	font-weight: 900;
+	    color: green;
+	    letter-spacing: 20px;	
+	}
+
+
+	.navbar-nav {
+    	padding-left: 20px;
+	}
+
+
+	nav .nav-item {
+	    padding: 15px 0vh 10px 5vh;
+	}
+
+	.navbar {
+	    padding: 0!important;
+	}
+	nav .blog-button {
+	    margin-left: 0;
+		background-color: transparent;
+	}
+
+
+	#arrow {
+	    padding-right: 15%;
+	    padding-bottom: 15%;
 	}
 
 	/* quem somos */
