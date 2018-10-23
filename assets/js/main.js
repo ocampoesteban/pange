@@ -10,6 +10,17 @@ $(document).ready(function () {
     });
 
 
+    
+    $('.navbar-toggler').click(function() {
+        var isNavBarCollapsed = $( ".navbar-collapse" ).hasClass( "show" );
+        if (isNavBarCollapsed) {
+            $('#inner-title,#subtitle').show();
+        }else{
+            $('#inner-title,#subtitle').hide();
+        }
+    });
+
+
     // ----------- carousel ------------- // 
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
