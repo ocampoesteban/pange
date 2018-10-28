@@ -189,6 +189,7 @@ footer {
 /* quem somos */
 #about-us-section-title {
 	padding-top: 15vh;
+	padding-bottom: 3vh;
 }
 
 #about-us-section-text {
@@ -521,9 +522,16 @@ iPad 3
     	padding-bottom: 0.1rem;
 	}*/
 
-	/*.about-us-description {
-		padding-bottom: 20px;
-	}*/
+	/* quem somos */
+	#about-us-section-title {
+	    padding-top: 7vh;
+		padding-bottom: 2vh;
+
+	}
+	#about-us-section-text {
+	    padding-bottom: 7vh;
+	}
+	/* quem somos */
 
 	/* video */
 	.offset_lg_2 {
