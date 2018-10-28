@@ -9,8 +9,7 @@ $(document).ready(function () {
         }, 2000);
     });
 
-
-    
+    //hide inner-ttile & subtitle on mobile
     $('.navbar-toggler').click(function() {
         var isNavBarCollapsed = $( ".navbar-collapse" ).hasClass( "show" );
         if (isNavBarCollapsed) {
