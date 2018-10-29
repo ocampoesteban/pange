@@ -525,6 +525,10 @@ iPad 3
 	    margin-left: 0;
 		background-color: transparent;
 	}
+
+	nav li.nav-item {
+	    border-bottom: 1px solid #d4c9c9;
+	}
 	/* nav bar */
 
 	#inner-title {
