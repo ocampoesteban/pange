@@ -393,6 +393,33 @@ footer#contact-section :-ms-input-placeholder {
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
 }
 
+.text-right {
+    padding-bottom: 2rem;
+}
+
+.copyright {
+	padding-left: 45%;
+}
+
+.developed{
+	padding-bottom: 1rem;
+}
+
+.developed-by {
+    padding-left: 37%;
+    padding-top: 5px;
+}
+
+.linkedin-link{
+	text-decoration: none;
+	color: black;
+}
+
+.linkedin-link:hover {
+	text-decoration: none;
+	color: black;
+}
+
 /*==========  Mobile First Method  ==========*/
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -566,6 +593,11 @@ iPad 3
 	#form-footer {
 		padding: 10vh 0 0 0;
 	}
+
+	.copyright {
+		padding-left: 33%;
+	}
+
 
 }
 
