@@ -215,7 +215,6 @@ footer {
 }
 
 .video-title {
-	text-transform: uppercase; /* remove ,add it with boostrap */
     margin-top: 25px; /* remove ,add it with boostrap */
 	margin-bottom: 5px; /* remove ,add it with boostrap */
  	font-family: 'Avenir Next', sans-serif;
@@ -295,6 +294,11 @@ footer {
 		background:#ccc;
 }
 
+.item-text {
+	max-height: 20vh;
+	min-height: 20vh;
+}
+
 /* braços */
 
 #arms-title {
@@ -320,8 +324,12 @@ footer {
 }
 
 .card-description {
+	padding-top: 1vh;
     width: 75%;
     margin: auto;
+    max-height: 24vh;
+    min-height: 24vh;
+    text-align: justify;
 }
 
 /* Contatos */
@@ -333,7 +341,7 @@ footer {
 }
 
 #about-us-title-inner {
-	padding: 0 50px 0 50px;
+	padding: 10vh 50px 0 50px;
 	color: white;
 }
 
