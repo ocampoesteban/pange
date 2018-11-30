@@ -55,6 +55,14 @@ table {
 
 /* PERSONAL CONFIG */
 
+.mt-6 {
+	margin-top: 4.5rem;	
+}
+
+.mb-6 {
+	margin-bottom: 4.5rem;	
+}
+
 /* Navbar */
 .collapse.show {
     background-color: white;
@@ -185,12 +193,12 @@ footer {
 
 /* quem somos */
 #about-us-section-title {
-	padding-top: 15vh;
+	padding-top: 10vh;
 	padding-bottom: 3vh;
 }
 
 #about-us-section-text {
-	padding-bottom: 15vh;
+	padding-bottom: 10vh;
 	text-align: justify;
 }
 
@@ -212,8 +220,6 @@ footer {
 }
 
 .video-title {
-    margin-top: 25px; /* remove ,add it with boostrap */
-	margin-bottom: 5px; /* remove ,add it with boostrap */
  	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
 }
@@ -230,7 +236,6 @@ footer {
 .MultiCarousel { 
 	float: left; 
 	overflow: hidden; 
-	padding: 15px; 
 	width: 100%; 
 	position: relative;
 }
@@ -302,7 +307,7 @@ footer {
 
 .box {
     padding-bottom: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     background-color: white;
 	-webkit-box-shadow:0px 22px 68px -9px rgba(0, 0, 0, 0.15);
 	-moz-box-shadow:0px 22px 68px -9px rgba(0, 0, 0, 0.15);
@@ -480,7 +485,7 @@ footer#contact-section :-ms-input-placeholder {
 	/* quem somos */
 	#about-us-section-title {
 	    padding-top: 7vh;
-		padding-bottom: 2vh;
+		padding-bottom: 0vh;
 
 	}
 	#about-us-section-text {
@@ -491,11 +496,6 @@ footer#contact-section :-ms-input-placeholder {
 	/* video */
 	.offset_lg_2 {
 	    margin-left: 0 !important;
-	}
-
-	/* delete paddings */
-	.video-description {
-    	padding-bottom: 20px;
 	}
 
 	#inner {
