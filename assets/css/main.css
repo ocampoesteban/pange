@@ -314,9 +314,8 @@ footer {
     box-shadow: 0px 22px 68px -9px rgba(0, 0, 0, 0.15)
 }
 
-.img-fluid {
-	min-width: 100%;
-	height: auto;
+.box .box-img {
+	height: 255px;
 }
 
 .card-title {
@@ -326,11 +325,9 @@ footer {
 .card-description {
 	padding-top: 1vh;
     width: 75%;
-    margin: auto;
     max-height: 24vh;
     min-height: 24vh;
-    text-align: justify;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 /* Contatos */
@@ -511,6 +508,10 @@ footer#contact-section :-ms-input-placeholder {
 	/* braços  */
 	.box {
 	    padding-bottom: 0px;
+	}
+
+	.box .box-img {
+	    height: 266px;
 	}
 
 	#contact-us-title, #instagram-title, #about-us-title {
