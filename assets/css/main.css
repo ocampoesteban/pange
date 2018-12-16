@@ -275,6 +275,10 @@ footer {
         	.MultiCarousel .MultiCarousel-inner .item > div > a > img {
 				max-width: 100%;        	
         	}
+        	/*working on this..*/
+        	/*#criado-mudo-item-title{
+        		font-size: 5vh;
+        	}*/
 
    .MultiCarousel .leftLst, .MultiCarousel .rightLst { 
    		position: absolute;
@@ -330,6 +334,11 @@ footer {
     font-size: 1.2rem;
 }
 
+/*working on this..*/
+/*#web-development-title h2 {
+	font-size: 3vh;
+}*/
+
 /* Contatos */
 #contact-section {
 }
@@ -344,6 +353,12 @@ footer {
     font-weight: 1000;
     letter-spacing: 11px;
     font-family: 'Avenir Next';
+}
+
+#about-us-content {
+	padding-top: 10vh;
+	font-weight: 700;
+	font-size: 2.5vh;
 }
 
 .contact {
