@@ -115,7 +115,7 @@ nav .navbar-toggler-icon {
 /* Header */
 
 header {
-	background: url(images/mainbackground.jpg);
+	/*background: url(images/mainbackground.jpg);*/
 	/* Full height */
     height: 100vh; 
 
@@ -124,6 +124,14 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#myVideoBG {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 footer {
