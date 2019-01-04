@@ -132,7 +132,7 @@ $(document).ready(function () {
     }
 
     if (mediaVideo.paused) {
-        document.getElementById("wrp").addEventListener("touchstart", playmyVid);
+        document.getElementById("wrp").addEventListener("touchmove", playmyVid);
 
         function playmyVid() {
         mediaVideo.play();
