@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
     $comments = $_POST['message'];  
  
     $email_to = "rogermion@hotmail.com";
-    $email_subject = "e ai porra,".$first_name." quere falar com voçe";
+    $email_subject = "oi, ". $first_name. "entrou em contato";
  
     function died($error) {
         // your error code can go here
