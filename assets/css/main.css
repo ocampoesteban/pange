@@ -130,8 +130,9 @@ header {
   position: absolute;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+  max-width: 100vw;
+  min-width: 100vw; 
+  min-height: 100vh;
 }
 
 footer {
@@ -213,32 +214,21 @@ footer {
 
 /* Video */
 
-#videos {    
-    height: 100%;
-}
-
-.video-description {
-	color:#000000c2;
-	margin:auto;
-	text-align: justify;
-}
-
-.video-description h4 {
-	padding-bottom: 10vh;
-}
-
-.video-title {
+#video-title {
  	font-family: 'Avenir Next', sans-serif;
     font-weight: 1000;
 }
 
-#videos-subcontainer{
-    margin-top: 25px;
+#video-description {
+	color:#000000c2;
+	margin:auto;
+	text-align: justify;
+	padding-bottom: 10vh;
 }
 
-.offset_lg_2 {
+/*.offset_lg_2 {
     margin-left: 20.666667% !important;
-}
+}*/
 
 /*carousel*/
 .MultiCarousel { 
@@ -337,8 +327,8 @@ footer {
 .card-description {
 	padding-top: 1vh;
     width: 75%;
-    max-height: 24vh;
-    min-height: 24vh;
+    max-height: 27vh;
+    min-height: 27vh;
     font-size: 1.2rem;
 }
 
@@ -377,11 +367,11 @@ footer {
 }
 
 footer#contact-section .form-group input,footer#contact-section .form-group textarea {
-	padding: 20px;
+	padding: 15px;
 }
 
 footer#contact-section .form-group textarea.form-control {
-    height: 181px;
+    height: 120px;
 }
 
 footer#contact-section .form-control:focus {
@@ -554,6 +544,12 @@ footer#contact-section :-ms-input-placeholder {
 	/*  O que disseminamos  */
 	.card-description {
     	font-size: 1rem;
+	}
+
+	#myVideoBG {
+		max-width: 1000vw;
+		max-height: 100vh;
+		min-height: 100vh;
 	}
 }
 

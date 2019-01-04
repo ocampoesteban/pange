@@ -7,7 +7,7 @@ if(isset($_POST['email'])) {
     $telephone = $_POST['phone'];   
     $comments = $_POST['message'];  
  
-    $email_to = "estebanocampo21@gmail.com";
+    $email_to = "rogermion@hotmail.com";
     $email_subject = "e ai porra,".$first_name." quere falar com voçe";
  
     function died($error) {

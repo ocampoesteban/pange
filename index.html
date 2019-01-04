@@ -39,7 +39,7 @@
 	<div class="wrapper">
 		<!-- header -->
 		<header>
-			<video autoplay muted loop id="myVideoBG">
+			<video muted autoplay loop id="myVideoBG">
   				<source src="images/Site.mp4" type="video/mp4">
 			</video>
 			<div class="container-fluid" id="wrapper">
@@ -87,27 +87,27 @@
 		<section class="section grey" id="videos-section">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-lg-7 offset_lg_2  mt-6">
+					<div class="col-12 col-lg-8 offset-lg-2  mt-6">
 						<div class="embed-responsive embed-responsive-16by9">
 						  <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/286001016"></iframe>
 						</div>
 					</div>
-					<div class="col-lg-4 offset-lg-4 video-title text-center mt-5 mb-3">
+					<div class="col-lg-4 offset-lg-4 text-center mt-5 mb-3" id="video-title">
 						<h1>Na Essência</h1>		   
 					</div>
-					<div class="col-12 offset-0 col-lg-6 offset-lg-3 video-description">
+					<div class="col-12 offset-0 col-lg-6 offset-lg-3" id="video-description">
 						<h4>
 							<p>
-								Pangea
+								<b>Pangea</b>
 Nos inspiramos neste continente por acreditar que uma comunidade integrada, livre de barreiras e preconceitos, é capaz de de evoluir em conjunto. Compreendemos que um mundo melhor se faz com menos fronteiras, principalmente quando elas são criadas e não naturais.
 								
 							</p>
 							<p>
-								Narrativas
+								<b>Narrativas</b>
 Histórias são o que nos movem. Mais do que reproduzí-las em vídeos, nosso compromisso é a busca pela narrativa ideal em cada caso específico. Sejam ficçionais ou reais, cotidianas ou extraordinárias, nos esforçamos para disseminar histórias que representem genuinamente os sentimentos e pontos de vista de seus realizadores.
 							</p>
 							<p>
-								Ilimitadas
+								<b>Ilimitadas</b>
 Temos como foco principal a produção audiovisual voltada a música e artes. Formada por um time curioso, no entanto, a Pangea visa sempre se descolar daquilo que a limita, mantendo-se em movimento, com produções autorais, destinadas à múltiplas plataformas. Assim, sempre em busca dos instrumentos necessários, estimulamos nossa sede de excelência na arte de narrar histórias, adquirindo repertório e conhecimento, para então disseminá-las onde melhor se encaixam.
 							</p>
 						</h4>
@@ -245,7 +245,7 @@ Temos como foco principal a produção audiovisual voltada a música e artes. Fo
 				        <div class="box">
 					        <img src="assets/css/images/music.jpg" class="img-fluid box-img" alt="Responsive image">
 					        <div class="card-title text-center">
-					        	<h2> Musica</h2>
+					        	<h2> Música</h2>
 					        </div>
 					        <div class="card-description pb-5 pb-md-0 text-left mx-5">
 				        			Nossa contribuição a uma sociedade que se pretende multicultural é disseminar essas cultura! Bandas locais e novos artistas estão por todo canto, basta olhar com atenção.
@@ -282,8 +282,8 @@ Temos como foco principal a produção audiovisual voltada a música e artes. Fo
 		<footer id="contact-section" class="contact">
 			<div class="container-fluid">
 				<div class="row">
-					<!-- instagram  mobile-->
-					<div class="col d-block d-sm-none">
+					<!-- instagram  mobile--> <!-- d-block d-sm-none -->
+					<div class="col-12 col-lg-4">
 						<div class=" justify-content-center pt-5 pb-2">
 							<h1 class="instagram-title text-white text-center text-uppercase pb-1">Instagram</h1>
 						</div>
@@ -291,19 +291,8 @@ Temos como foco principal a produção audiovisual voltada a música e artes. Fo
 							<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/dfc2720de431526886b0652a64fc81eb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 						</div>
 					</div>
-					<!-- about us -->
-					<div class="col">
-						<div class="justify-content-center pt-5 pb-2">
-							<h1 class="about-us-title text-white text-center text-uppercase pb-1">About us</h1> 
-						</div> <!-- add text-white and delete css -->
-						<div class="text-white pl-5" id="about-us-content">
-							<p></p>
-							<p>+55 (41) 9 9290-9644</p>
-							<p>contato@pangeanarrativas.com.br</p>
-						</div>
-					</div>
 					<!-- contact us / form -->
-					<div class="col">
+					<div class="col-12 col-lg-4">
 						<div class="justify-content-center pt-5 pb-2">
 							<h1 class="contact-us-title text-white text-center text-uppercase pb-1">Contact Us</h1> 
 						</div>
@@ -340,15 +329,26 @@ Temos como foco principal a produção audiovisual voltada a música e artes. Fo
 				            </form>
 				        </div>	
 					</div>
-					<!-- instagram  desktop -->
-					<div class="col d-none d-lg-block">
+					<!-- about us -->
+					<div class="col-12 col-lg-4">
+						<div class="justify-content-center pt-5 pb-2">
+							<h1 class="about-us-title text-white text-center text-uppercase pb-1">About us</h1> 
+						</div> <!-- add text-white and delete css -->
+						<div class="text-white pl-5" id="about-us-content">
+							<p></p>
+							<p>+55 (41) 9 9290-9644</p>
+							<p>contato@pangeanarrativas.com.br</p>
+						</div>
+					</div>
+					<!-- instagram  desktop --><!-- d-none d-lg-block -->
+					<!-- <div class="col" id="insta-desktop">
 						<div class=" justify-content-center pt-5 pb-2">
 							<h1 class="instagram-title text-white text-center text-uppercase pb-1">Instagram</h1> 
 						</div>
 						<div class="instagram-pictures">
 							<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/dfc2720de431526886b0652a64fc81eb.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</footer>
