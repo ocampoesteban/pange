@@ -226,6 +226,10 @@ footer {
 	padding-bottom: 10vh;
 }
 
+#video-description b {
+	font-size: 125%;
+}
+
 /*.offset_lg_2 {
     margin-left: 20.666667% !important;
 }*/

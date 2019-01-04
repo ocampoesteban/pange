@@ -119,3 +119,8 @@ $(document).ready(function () {
     }
     // ----------- carousel end ------------- //
  });
+
+
+if($("#myVideoBG").muted == true) {
+    window.alert("try");
+};
