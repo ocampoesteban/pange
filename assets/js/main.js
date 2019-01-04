@@ -120,7 +120,31 @@ $(document).ready(function () {
     // ----------- carousel end ------------- //
  });
 
+    var mediaVideo = $("#myVideoBG").get(0);
+    if(mediaVideo.muted) {
 
-if($("#myVideoBG").muted == true) {
-    window.alert("try");
-};
+    } else {
+        mediaVideo.muted(true);
+    }
+    
+    if (mediaVideo.paused) {
+       mediaVideo.play();
+    }
+
+    if (mediaVideo.paused) {
+        document.getElementById("myVideoBG").addEventListener("click", playmyVid);
+
+        function playmyVid() {
+        mediaVideo.play();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
