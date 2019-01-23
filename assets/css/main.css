@@ -209,6 +209,7 @@ footer {
 #about-us-section-text {
 	padding-bottom: 10vh;
 	text-align: justify;
+	color:#000000c2;
 }
 
 
@@ -321,7 +322,9 @@ footer {
 }
 
 .box .box-img {
-	height: 255px;
+	/*height: 255px;*/
+	min-width: 100%;
+	max-width: 100%;
 }
 
 .card-title {
@@ -331,8 +334,8 @@ footer {
 .card-description {
 	padding-top: 1vh;
     width: 75%;
-    max-height: 27vh;
-    min-height: 27vh;
+    max-height: 30vh;
+    min-height: 30vh;
     font-size: 1.2rem;
 }
 
@@ -527,9 +530,9 @@ footer#contact-section :-ms-input-placeholder {
 	    padding-bottom: 0px;
 	}
 
-	.box .box-img {
+	/*.box .box-img {
 	    height: 266px;
-	}
+	}*/
 
 	#contact-us-title, #instagram-title, #about-us-title {
 	    font-weight: 700;
